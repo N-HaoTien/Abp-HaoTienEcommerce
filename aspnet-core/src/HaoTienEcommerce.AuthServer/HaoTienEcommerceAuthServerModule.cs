@@ -47,6 +47,7 @@ namespace HaoTienEcommerce;
     typeof(AbpAspNetCoreMvcUiLeptonXLiteThemeModule),
     typeof(HaoTienEcommerceEntityFrameworkCoreModule),
     typeof(AbpAspNetCoreSerilogModule)
+
     )]
 public class HaoTienEcommerceAuthServerModule : AbpModule
 {
@@ -200,7 +201,7 @@ public class HaoTienEcommerceAuthServerModule : AbpModule
         app.UseCors();
         app.UseAuthentication();
         app.UseAbpOpenIddictValidation();
-       
+
         if (MultiTenancyConsts.IsEnabled)
         {
             app.UseMultiTenancy();

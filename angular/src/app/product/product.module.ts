@@ -7,12 +7,15 @@ import { TableModule } from 'primeng/table';
 import { PaginatorModule } from 'primeng/paginator';
 import { BlockUIModule } from 'primeng/blockui';
 import { ButtonModule } from 'primeng/button';
-import {DropdownModule} from 'primeng/dropdown';
-import {InputTextModule} from 'primeng/inputtext';
-import {ProgressSpinnerModule} from 'primeng/progressspinner';
-import {DynamicDialogModule} from 'primeng/dynamicdialog';
+import { DropdownModule } from 'primeng/dropdown';
+import { InputTextModule } from 'primeng/inputtext';
+import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { ProductDetailComponent } from './product-detail.component';
-
+import { CheckboxModule } from 'primeng/checkbox';
+import { InputNumberModule } from 'primeng/inputnumber';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import { HaotienSharedModule } from '../shared/modules/haotien-shared.module';
 @NgModule({
   declarations: [ProductComponent, ProductDetailComponent],
   imports: [
@@ -26,10 +29,14 @@ import { ProductDetailComponent } from './product-detail.component';
     DropdownModule,
     InputTextModule,
     ProgressSpinnerModule,
-    DynamicDialogModule
+    DynamicDialogModule,
+    InputNumberModule,
+    CheckboxModule,
+    InputTextareaModule,
+    HaotienSharedModule
   ],
-  entryComponents:[
+  entryComponents: [
     ProductDetailComponent
   ]
 })
-export class ProductModule {}
+export class ProductModule { }
