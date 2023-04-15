@@ -10,7 +10,7 @@ namespace HaoTienEcommerce.Admin;
 
 public class HaoTienEcommerceApplicationAutoMapperProfile : Profile
 {
-    // Hello
+    // Hello12312
     public HaoTienEcommerceApplicationAutoMapperProfile()
     {
         /* You can configure your AutoMapper mapping configuration here.
