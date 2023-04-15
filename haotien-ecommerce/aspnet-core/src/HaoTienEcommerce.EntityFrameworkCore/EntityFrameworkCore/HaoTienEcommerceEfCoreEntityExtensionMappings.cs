@@ -18,7 +18,7 @@ public static class HaoTienEcommerceEfCoreEntityExtensionMappings
         {
                 /* You can configure extra properties for the
                  * entities defined in the modules used by your application.
-                 *
+                 *8
                  * This class can be used to map these extra properties to table fields in the database.
                  *
                  * USE THIS CLASS ONLY TO CONFIGURE EF CORE RELATED MAPPING.
