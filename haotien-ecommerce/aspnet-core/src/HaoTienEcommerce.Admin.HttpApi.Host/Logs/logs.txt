@@ -13527,3 +13527,206 @@ StackExchange.Redis.RedisServerException: ERR Error running script (call to f_39
 2023-04-14 22:45:23.970 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
 2023-04-14 22:45:23.970 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 3.6585ms
 2023-04-14 22:45:24.299 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 353.4851ms
+2023-04-14 23:02:52.107 +07:00 [INF] Starting HaoTienEcommerce.Admin.HttpApi.Host.
+2023-04-14 23:02:54.848 +07:00 [INF] Starting HaoTienEcommerce.Admin.HttpApi.Host.
+2023-04-14 23:03:03.641 +07:00 [INF] Loaded ABP modules:
+2023-04-14 23:03:03.643 +07:00 [INF] - HaoTienEcommerce.Admin.HaoTienEcommerceHttpApiHostModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - HaoTienEcommerce.Admin.HaoTienEcommerceHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - HaoTienEcommerce.Admin.HaoTienEcommerceApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - HaoTienEcommerce.HaoTienEcommerceDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-04-14 23:03:03.643 +07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-04-14 23:03:03.643 +07:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-04-14 23:03:03.643 +07:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2023-04-14 23:03:03.643 +07:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-04-14 23:03:03.643 +07:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-04-14 23:03:03.643 +07:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-04-14 23:03:03.643 +07:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-04-14 23:03:03.643 +07:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.FluentValidation.AbpFluentValidationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-04-14 23:03:03.643 +07:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - HaoTienEcommerce.Admin.HaoTienEcommerceApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - HaoTienEcommerce.HaoTienEcommerceDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-04-14 23:03:03.643 +07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-04-14 23:03:03.643 +07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.BlobStoring.FileSystem.AbpBlobStoringFileSystemModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - HaoTienEcommerce.EntityFrameworkCore.HaoTienEcommerceEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-04-14 23:03:03.643 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-04-14 23:03:04.071 +07:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2023-04-14 23:03:04.075 +07:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-04-14 23:03:04.854 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-14 23:03:04.965 +07:00 [INF] Initialized all ABP modules.
+2023-04-14 23:03:05.142 +07:00 [INF] Now listening on: https://localhost:5001
+2023-04-14 23:03:05.142 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 23:03:05.142 +07:00 [INF] Hosting environment: Development
+2023-04-14 23:03:05.142 +07:00 [INF] Content root path: D:\Web-Ecomerce-Core-Angular-HaoTien\haotien-ecommerce\aspnet-core\src\HaoTienEcommerce.Admin.HttpApi.Host\
+2023-04-14 23:03:07.549 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-04-14 23:03:10.105 +07:00 [WRN] ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+StackExchange.Redis.RedisServerException: ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.SetManyAsync(IEnumerable`1 items, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.<>c__DisplayClass54_0.<<SetManyAsync>g__SetRealCache|0>d.MoveNext()
+2023-04-14 23:03:10.192 +07:00 [WRN] ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+StackExchange.Redis.RedisServerException: ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.SetManyAsync(IEnumerable`1 items, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.<>c__DisplayClass54_0.<<SetManyAsync>g__SetRealCache|0>d.MoveNext()
+2023-04-14 23:03:10.992 +07:00 [INF] Executing endpoint 'HaoTienEcommerce.Controllers.HomeController.Index (HaoTienEcommerce.Admin.HttpApi.Host)'
+2023-04-14 23:03:11.021 +07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller HaoTienEcommerce.Controllers.HomeController (HaoTienEcommerce.Admin.HttpApi.Host).
+2023-04-14 23:03:11.051 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-04-14 23:03:11.057 +07:00 [INF] Executed action HaoTienEcommerce.Controllers.HomeController.Index (HaoTienEcommerce.Admin.HttpApi.Host) in 30.7549ms
+2023-04-14 23:03:11.057 +07:00 [INF] Executed endpoint 'HaoTienEcommerce.Controllers.HomeController.Index (HaoTienEcommerce.Admin.HttpApi.Host)'
+2023-04-14 23:03:11.074 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 302 0 - 3526.0553ms
+2023-04-14 23:03:11.087 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-04-14 23:03:11.283 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 195.9731ms
+2023-04-14 23:03:11.337 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-04-14 23:03:11.342 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12040 application/javascript;+charset=utf-8 4.6172ms
+2023-04-14 23:03:11.493 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-04-14 23:03:11.587 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.5752ms
+2023-04-14 23:03:11.836 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-04-14 23:03:12.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 467.6890ms
+2023-04-14 23:03:57.526 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/abp/Swashbuckle/SetCsrfCookie - -
+2023-04-14 23:03:57.532 +07:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2023-04-14 23:03:57.535 +07:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle", page = ""}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2023-04-14 23:03:57.546 +07:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 10.7797ms
+2023-04-14 23:03:57.546 +07:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2023-04-14 23:03:57.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/abp/Swashbuckle/SetCsrfCookie - - - 204 - - 21.6739ms
+2023-04-14 23:03:57.681 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/app/product-categories/all - -
+2023-04-14 23:03:57.683 +07:00 [INF] Executing endpoint 'HaoTienEcommerce.Admin.ProductCategories.ProductCategoriesAppService.GetListAllAsync (HaoTienEcommerce.Admin.Application)'
+2023-04-14 23:03:57.690 +07:00 [INF] Route matched with {action = "GetListAll", controller = "ProductCategories", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[HaoTienEcommerce.Admin.ProductCategories.ProductCategoryInListDto]] GetListAllAsync() on controller HaoTienEcommerce.Admin.ProductCategories.ProductCategoriesAppService (HaoTienEcommerce.Admin.Application).
+2023-04-14 23:03:58.243 +07:00 [WRN] No store type was specified for the decimal property 'Value' on entity type 'ProductAttributeDecimal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-04-14 23:03:58.600 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:03:58.609 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[HaoTienEcommerce.Admin.ProductCategories.ProductCategoryInListDto, HaoTienEcommerce.Admin.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-14 23:03:58.621 +07:00 [INF] Executed action HaoTienEcommerce.Admin.ProductCategories.ProductCategoriesAppService.GetListAllAsync (HaoTienEcommerce.Admin.Application) in 931.386ms
+2023-04-14 23:03:58.622 +07:00 [INF] Executed endpoint 'HaoTienEcommerce.Admin.ProductCategories.ProductCategoriesAppService.GetListAllAsync (HaoTienEcommerce.Admin.Application)'
+2023-04-14 23:03:58.623 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:03:58.625 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/app/product-categories/all - - - 200 - application/json;+charset=utf-8 944.2076ms
+2023-04-14 23:04:06.028 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:5001/api/abp/application-configuration - -
+2023-04-14 23:04:06.036 +07:00 [INF] CORS policy execution successful.
+2023-04-14 23:04:06.039 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:5001/api/abp/application-configuration - - - 204 - - 10.0804ms
+2023-04-14 23:04:06.041 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/abp/application-configuration - -
+2023-04-14 23:04:06.043 +07:00 [INF] CORS policy execution successful.
+2023-04-14 23:04:06.047 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-04-14 23:04:06.051 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync() on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2023-04-14 23:04:06.086 +07:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2023-04-14 23:04:06.732 +07:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2023-04-14 23:04:06.735 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:04:06.737 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:04:06.738 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2023-04-14 23:04:06.764 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 713.0065ms
+2023-04-14 23:04:06.764 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-04-14 23:04:06.765 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:04:06.765 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-04-14 23:04:06.767 +07:00 [WRN] ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+StackExchange.Redis.RedisServerException: ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.SetManyAsync(IEnumerable`1 items, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.<>c__DisplayClass54_0.<<SetManyAsync>g__SetRealCache|0>d.MoveNext()
+2023-04-14 23:04:06.768 +07:00 [WRN] ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+StackExchange.Redis.RedisServerException: ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.SetManyAsync(IEnumerable`1 items, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.<>c__DisplayClass54_0.<<SetManyAsync>g__SetRealCache|0>d.MoveNext()
+2023-04-14 23:04:06.778 +07:00 [WRN] ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+StackExchange.Redis.RedisServerException: ERR Error running script (call to f_3915ee22fda531a1d5661f2523d0443fd35ff0a4): @user_script:2: @user_script: 2: Wrong number of args calling Redis command From Lua script 
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.SetManyAsync(IEnumerable`1 items, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.<>c__DisplayClass54_0.<<SetManyAsync>g__SetRealCache|0>d.MoveNext()
+2023-04-14 23:04:06.778 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/abp/application-configuration - - - 200 - application/json;+charset=utf-8 737.0665ms
